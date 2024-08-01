@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#nav-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.golu{
+   
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#nav-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-transform: capitalize;
+}
+#nav-part2 h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+#nav-part2 h4 span{
+    color: rgb(91, 90, 90);
+    margin-left: 20px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#nav2{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    gap: 100px;
+}
+#nav2 h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(91, 90, 90);
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#contant{
+    width: 100%;
+    height: calc(100% - 150px);
+    /* background-color: aquamarine; */
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Container for text elements */
+#text-contant {
+    height: 45%; 
+    width: 100%; 
+    /* background-color: blanchedalmond; */
+    display: flex; 
+    flex-wrap: nowrap; /* Do not wrap the elements in the container */
+    overflow-x: auto; /* Enable horizontal scrolling if the content overflows */
+}
+
+/* Customize the scrollbar for webkit-based browsers */
+#text-contant::-webkit-scrollbar {
+    background-color: transparent; /* Transparent background for the scrollbar */
+    height: 7px; /* Height of the scrollbar */
+}
+
+#text-contant::-webkit-scrollbar-thumb {
+    background-color: orange; /* Color of the scrollbar thumb */
+}
+
+/* Individual text elements */
+.elem {
+    flex-shrink: 0; /* Prevent the element from shrinking */
+    font-size: 100px; 
+    font-weight: 400; 
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    height: 100%; 
+    width: 50%; 
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Container for image elements */
+#img-contant {
+    width: 100%;
+    height: 55%; 
+    background-color: blue; 
+    display: flex; /* Display the container as a flex container */
+    overflow-x: auto; /* Enable horizontal scrolling if the content overflows */
+}
+
+/* Image elements within the container */
+#img-contant img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* Ensure the image covers the entire area */
+    overflow-x: auto; /* Enable horizontal scrolling if the content overflows */
+}
+
+/* Hide the scrollbar for webkit-based browsers */
+#img-contant::-webkit-scrollbar {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
